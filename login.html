@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 页面tdk -->
+    <title>小U商城-正品低价，质量保证</title>
+    <meta name="keywords" content="关键词">
+    <meta name="description" content="网页描述">
+    <!-- 引入icon图标 -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 引入登录页样式 -->
+    <link rel="stylesheet" href="css/login.css">
+
+    <script src="./common/jquery.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- 顶端区域的开始 -->
+        <div class="top">
+            <img src="images/cart_logo.jpg" alt="">
+            <div class="line"></div>
+            <span>欢迎登录</span>
+        </div>
+        <!-- 顶端区域的结束 -->
+        <!-- 登录页面的开始 -->
+        <div class="login">
+            <form action="javascript:;" class="page" method="get">
+                <div class="deng">
+                    <p class="title">登录</p>
+                    <div class="hang ha">
+                        <div class="pic"><img src="images/xinjian_03.png" alt=""></div>
+                        <input type="text" placeholder="手机号/会员名/邮箱" name="email" id="email">
+                        <span></span>
+                    </div>
+                    <div class="hang h1">
+                        <div class="pic pc"><img src="images/xinjian_06.png" alt=""></div>
+                        <input type="password" value="" name="pwd" placeholder="密码" id="pwd">
+                        <span></span>
+                    </div>
+                    <div class="h2">
+                        <input type="text" placeholder="验证码" name="code" id="code">
+                        <div class="shuzi">
+                            <img src="http://localhost:3000/user/captcha" id="svg">
+                        </div>
+                        <span></span>
+                    </div>
+                </div>
+                <input type="submit" value="登录" name="btn" id="up">
+                <div class="panduan">
+                    <input type="checkbox" checked>
+                    <span>自动登录</span>
+                    <a href="#">忘记密码？</a>
+                </div>
+                <div class="line"></div>
+                <div class="way">
+                    <ul>
+                        <li style="color: #27a6f7;"><a href="#">QQ</a></li>
+                        <li style="color: #dc2b1b;"><a href="#">微博</a></li>
+                        <li style="color: #14ce47;"><a href="#">微信</a></li>
+                    </ul>
+                    <a href="#">立即注册</a>
+                </div>
+            </form>
+        </div>
+        <!--登录页面的结束 -->
+        <!-- 版权 -->
+        <div class="finally">
+            <p class="x">Copyright @copy; 2010-1016 小U商城 版权所有 保留一切权利</p>
+            <p>京ICP备10218183号 京ICP证161188号 京公网安备 1101082020593号 出版物经营许可证新出发京批字第直130052号</p>
+        </div>
+    </div>
+        
+    <script src="./js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+.wrap {
+    width: 100%;
+    height: 678px;
+}
+/* 顶端 */
+.wrap .top {
+    width: 100%;
+    height: 108px;
+    line-height: 108px;
+}
+.top img {
+    position: absolute;
+    width: 209px;
+    height: 44px;
+    top: 34px;
+    left: 296px;
+}
+.top .line {
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    background-color: #e8e8e8;
+    top: 34px;
+    left: 526px;
+}
+.top span {
+    font-size: 22px;
+    color: #5f5f5f;
+    margin-left: 547px;
+}
+/* 登录页面 */
+.wrap .login {
+    width: 100%;
+    height: 451px;
+    background: url("../images/login_banner.jpg") no-repeat center center;
+}
+.login .page {
+    float: right;
+    width: 352px;
+    height: 378px;
+    background-color: #fff;
+    border-top: 3px solid #f06b0e;
+    margin-top: 36px;
+    margin-right: 303px;
+    position: relative;
+}
+.page .deng {
+    width: 282px;
+    height: 179px;
+    margin-top: 26px;
+    margin-left: 35px;
+}
+.page .deng .title {
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    color: #6a6a6a;
+}
+.page .deng .hang {
+    position: relative;
+    width: 280px;
+    height: 34px;
+    border: 1px solid #d9d9d9;
+}
+.page .deng .h1 {
+    margin-top: 14px;
+}
+.page .deng .ha {
+    border-color: #f56b12;
+    margin-top: 24px;
+}
+.deng .hang .pic {
+    width: 34px;
+    height: 34px;
+    background-color: #fef9f6;
+}
+.deng .hang span {
+    position: absolute;
+    left: 30px;
+    font-size:12px;
+    color:orange;
+}
+.deng .hang .pc {
+    background-color: #f9f9f9;
+}
+.hang .pic img {
+    margin-top: 11px;
+    margin-left: 9px;
+}
+.hang input {
+    width: 233px;
+    height: 34px;
+    border-left: 1px solid #bfbfbf;
+    font-size: 14px;
+    color: #989898;
+    padding-left: 10px;
+    margin-top: -60px;
+    margin-left: 34px;
+    outline: none;
+} 
+.ha input {
+    border-left: 1px solid #f56b12;
+}
+.page .deng .h2 {
+    position: relative;
+    width: 100%;
+    height: 36px;
+    margin-top: 14px;
+}
+.deng .h2 input {
+    width: 196px;
+    height: 34px;
+    color: #9a9a9a;
+    padding-left: 10px;
+    border: 1px solid #d8d8d8;
+    outline: none;
+}
+.deng .h2 .shuzi {
+    float: right;
+    width: 72px;
+    height: 36px;
+    /* font-size: 20px;
+    color: #30408d; */
+    /* font-weight: bold; */
+    /* margin-top: 5px; */
+}
+.deng .h2 span {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    font-size: 8px;
+    color: orange;
+}
+.page>input {
+    width: 286px;
+    height: 40px;
+    background-color: #f26b11;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-left: 32px;
+    outline: none;
+}
+#up {
+    margin-top: 10px;
+}
+.page .panduan {
+    width: 282px;
+    height: 16px;
+    font-size: 12px;
+    color: #646464;
+    margin-top: 13px;
+    margin-left: 35px;
+}
+.page .panduan span {
+    margin-left: 5px;
+}
+.page .panduan a {
+    float: right;
+    color: #646464;
+}
+.page .line {
+    width: 100%;
+    height: 1px;
+    background-color: #efefef;
+    margin-top: 30px
+}
+.page .way {
+    width: 100%;
+    height: 16px;
+    margin-top: 17px;
+}
+.page .way ul {
+    height: 16px;
+    margin-left: 54px;
+}
+.page .way li {
+    float: left;
+    list-style-type: disc;
+    margin-right: 30px;
+}
+.way li a {
+    font-size: 12px;
+    color: #626262;
+} 
+.way>a {
+    float: right;
+    color: #f36b17;
+    margin-right: 30px;
+    margin-top: -16px;
+}
+/* 版权部分 */
+.finally {
+    width: 100%;
+    height: 121px;
+}
+.finally p {
+    line-height: 25px;
+    font-size: 12px;
+    color: #6f6f6f;
+    text-align: center;
+}
+.finally .x {
+    padding-top: 38px;
+}
